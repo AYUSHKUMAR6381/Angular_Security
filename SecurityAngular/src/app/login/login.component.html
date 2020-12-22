@@ -1,0 +1,45 @@
+<div class="alert alert-success" role="alert">
+  Login component!
+</div>
+<!-- <div class="row">
+  <div class="col-md-4">
+    <form #MyForm="ngForm" (ngSubmit)="onSubmit(MyForm.value)">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" ngModel>      
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" name="pwd" ngModel>
+      </div>
+      <div class="mb-3 form-check">
+        <label >Role</label>
+        <select name="Role" id="cars" ngModel>
+          <option value="user">As User</option>
+          <option value="admin">As Admin</option>
+        </select>
+      </div><br/>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
+
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+<button 
+  class="btn btn-outline-warning" 
+  (click)="login(Role.User)">Login as User</button>
+
+<button 
+  class="btn btn-outline-danger" 
+  (click)="login(Role.Admin)">Login as Admin</button>
